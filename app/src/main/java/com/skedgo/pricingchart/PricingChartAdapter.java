@@ -45,9 +45,9 @@ public class PricingChartAdapter extends RecyclerView.Adapter<ChartViewHolder> {
                 chartViewHolder.tvItemValueView.setLayoutParams(valueViewParams);
 
                 if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN) {
-                    viewTreeObserver.removeOnGlobalLayoutListener(this);
+                    chartViewHolder.tvItemViewBg.getViewTreeObserver().removeOnGlobalLayoutListener(this);
                 } else {
-                    viewTreeObserver.removeGlobalOnLayoutListener(this);
+                    chartViewHolder.tvItemViewBg.getViewTreeObserver().removeGlobalOnLayoutListener(this);
                 }
             }
         });

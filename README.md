@@ -2,6 +2,8 @@
 
 This is a simple custom view that help you create columns charts in you Android application.
 
+![Screenshot](https://cloud.githubusercontent.com/assets/5306576/5833978/5abf686a-a18b-11e4-9d1f-32b2e425590c.PNG)
+
 # How to use
 
 This project includes two parts, library project and demo project. You can pull this project 
